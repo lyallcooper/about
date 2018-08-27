@@ -1,102 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Lyall Cooper by lyallcooper</title>
-  </head>
-
-  <body>
-    <a id="forkme_banner" href="https://github.com/lyallcooper">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Lyall Cooper</h1>
-            <h2>The Website</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a name="about-me" class="anchor" href="#about-me"><span class="octicon octicon-link"></span></a>About Me</h3>
-
-<pre lang="shell"><code>$ whoami
-Lyall Cooper
-</code></pre>
-
-<h3>
-<a name="a-section" class="anchor" href="#a-section"><span class="octicon octicon-link"></span></a>A Section</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat urna, quis tempus risus. Vivamus hendrerit eros non laoreet ornare. Mauris mollis nibh sit amet nibh bibendum semper. Maecenas tempus aliquet auctor. Vestibulum feugiat tortor non sapien volutpat, adipiscing tincidunt nisi imperdiet. Aliquam sit amet orci mollis, mollis lacus sit amet, ornare purus. Praesent eget dolor dui. Mauris in hendrerit est. Cras interdum elementum erat scelerisque facilisis. In dictum, nisi eu feugiat accumsan, leo turpis blandit leo, commodo vehicula turpis tortor at nunc. Nullam vitae lobortis arcu. Sed ultricies tristique est, eget pharetra erat tincidunt quis.</p>
-
-<h3>
-<a name="another-one" class="anchor" href="#another-one"><span class="octicon octicon-link"></span></a>Another One</h3>
-
-<p>Sed laoreet ipsum est, vel scelerisque dolor accumsan vitae. Cras ut massa ac dolor ultricies rhoncus. Phasellus a mauris ac tortor dapibus pellentesque. Pellentesque at blandit felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent molestie consequat nulla, id pellentesque arcu semper et. Mauris feugiat dui ac convallis pellentesque.</p>
-
-<h3>
-<a name="the-third" class="anchor" href="#the-third"><span class="octicon octicon-link"></span></a>"The Third"</h3>
-
-<p>Morbi nunc tortor, feugiat et egestas ut, egestas eu mi. Sed at neque sit amet lectus ultricies imperdiet vitae non turpis. Donec dictum condimentum commodo. Sed adipiscing metus eros, ac mattis dui rutrum sed. Vestibulum neque urna, dictum at malesuada nec, pretium id mi. Vestibulum neque dui, tempor eu velit vitae, pellentesque tincidunt lorem.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Info here.</p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/lyallcooper">lyallcooper</a> can be found on <a href="https://github.com/lyallcooper">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-41539865-2");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+<html lang="en">
+    <head>
+        <title>About Me!</title>
+        <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        
+            font-family: sans-serif;
+        }
+        h1 {
+            font-size: 10vmin;
+        }
+        p {
+            font-size: 4vmin;
+            white-space: nowrap;
+        }
+        a {
+            padding-left: 1vmin;
+            padding-right: 1vmin;
+        }
+        a+a {
+            border-left: 0.25vmin solid black;
+            padding-left: 2vmin;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1 class="item">
+                Hello 👋 I'm Lyall
+            </h1>
+            <p class="item">
+                <a href="https://lyall.co">Site</a>
+                <a href="https://twitter.com/lyallcooper">Twitter</a>
+                <a href="https://keybase.io/lyall">Keybase</a>
+                <a href="https://afake.website">A Fake Website</a>
+            </p>
+        </div>
+    </body>
 </html>
