@@ -8,7 +8,7 @@
             height: 100%;
             margin: 0;
         }
-        .container {
+        .center {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -18,13 +18,15 @@
             font-family: sans-serif;
         }
         h1 {
-            font-size: 10vmin;
+            font-size: min(12vw, 3cm);
         }
         p {
-            font-size: 4vmin;
+            font-size: min(6vw, 1.5cm);
+            margin: 0;
             white-space: nowrap;
         }
         a {
+            color: blue;
             padding-left: 1vmin;
             padding-right: 1vmin;
         }
@@ -36,11 +38,11 @@
     </head>
     
     <body>
-        <div class="container">
-            <h1 class="item">
+        <div class="center">
+            <h1>
                 Hello 👋 I'm Lyall
             </h1>
-            <p class="item">
+            <p>
                 <a href="https://twitter.com/lyallcooper">Twitter</a>
                 <a href="https://github.com/lyallcooper">GitHub</a>
                 <a href="https://keybase.io/lyall">Keybase</a>
