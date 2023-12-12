@@ -2,11 +2,17 @@
 <html lang="en">
     <head>
         <title>About Me</title>
-        <link rel="icon" href="/favicon.png">
+        <link rel="icon" href="favicon.webp" />
+
         <style>
         html, body {
             height: 100%;
             margin: 0;
+
+            @media (prefers-color-scheme: dark) {
+                background-color: #222;
+                color: #eee;
+            }
         }
         .center {
             display: flex;
@@ -18,20 +24,34 @@
             font-family: system-ui, sans-serif;
         }
         h1 {
-            font-size: min(12vw, 3cm);
+            font-size: min(12vw, 2cm);
+            padding-bottom: 0;
+            margin-bottom: 0;
         }
-        p {
-            font-size: min(6vw, 1.5cm);
-            margin: 0;
+        .bio {
+            font-size: min(2.5vw, 0.42cm);
+            max-width: 35em;
+            margin: 1em;
+        }
+        .links {
+            font-size: min(6vw, 1cm);
+            margin-top: 0.5em;
+            margin-bottom: 2em;
             white-space: nowrap;
         }
         a {
             color: blue;
+            @media (prefers-color-scheme: dark) {
+                color: #4990d9;
+            }
             padding-left: 1vmin;
             padding-right: 1vmin;
         }
         a+a {
             border-left: 0.25vmin solid black;
+            @media (prefers-color-scheme: dark) {
+                border-color: #eee;
+            }
             padding-left: 2vmin;
         }
         </style>
@@ -42,7 +62,9 @@
             <h1>
                 Hello 👋 I'm Lyall
             </h1>
-            <p>
+            <p class="bio">
+            </p>
+            <p class="links">
                 <a href="https://blog.lyall.co">Blog</a>
                 <a rel="me" href="https://mas.to/@lyall">Mastodon</a>
                 <a href="https://twitter.com/lyallcooper">Twitter</a>
